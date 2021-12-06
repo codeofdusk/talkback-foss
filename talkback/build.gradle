@@ -14,3 +14,7 @@ android {
         buildConfigField("String", "APPLICATION_ID", '"' + talkbackApplicationId + '"')
     }
 }
+
+android {
+    namespace "com.google.android.accessibility.talkback"
+}
