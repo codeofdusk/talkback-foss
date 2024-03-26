@@ -244,8 +244,7 @@ public class ImageCaptioner extends Handler
   }
 
   public static boolean supportsImageCaption(Context context) {
-    return FeatureSupport.canTakeScreenShotByAccessibilityService()
-        && !FormFactorUtils.getInstance().isAndroidWear();
+    return false;
   }
 
   public static boolean supportsIconDetection(Context context) {
