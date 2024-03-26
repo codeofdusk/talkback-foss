@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="talkback_on">TalkBack 사용</string>
-  <string name="talkback_disabled">TalkBack이 사용 중지됨</string>
+  <string name="talkback_on">TalkBack FOSS 사용</string>
+  <string name="talkback_disabled">TalkBack FOSS이 사용 중지됨</string>
   <string name="spokenfeedback_on">음성 피드백이 사용 설정됨</string>
   <string name="spokenfeedback_suspended">음성 피드백이 일시정지됨</string>
   <string name="spokenfeedback_resumed">음성 피드백이 다시 시작됨</string>
