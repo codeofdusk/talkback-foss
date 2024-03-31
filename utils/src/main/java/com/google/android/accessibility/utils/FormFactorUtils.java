@@ -64,8 +64,8 @@ public class FormFactorUtils {
 
   /** Returns whether TB is running on Android Tv. */
   private static boolean initIsAndroidTv(Context context) {
-    UiModeManager modeManager = (UiModeManager) context.getSystemService(Context.UI_MODE_SERVICE);
-    return ((modeManager != null)
-        && (modeManager.getCurrentModeType() == Configuration.UI_MODE_TYPE_TELEVISION));
+    // Always return true, regardless of the real form factor, to enable d-pad
+    // navigation on specialty devices (IP phone, BlindShell, etc.).
+    return true;
   }
 }
