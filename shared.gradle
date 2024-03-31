@@ -22,7 +22,7 @@ android {
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
-        minSdk 26
+        minSdk 24
     }
     flavorDimensions "target"
     productFlavors {
