@@ -599,10 +599,10 @@ public class TalkBackService extends AccessibilityService
   private UncaughtExceptionHandler systemUeh;
 
   /** The system feature if the device supports touch screen */
-  private boolean supportsTouchScreen = true;
+  private boolean supportsTouchScreen = false;
 
   /** Feature flag from P/H experimentation framework, for using service gesture detection. */
-  private boolean gestureDetectionFeatureFlag = true;
+  private boolean gestureDetectionFeatureFlag = false;
 
   /** Whether the current root node is dirty or not. */
   private boolean isRootNodeDirty = true;
